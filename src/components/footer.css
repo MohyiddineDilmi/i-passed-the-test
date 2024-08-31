@@ -1,0 +1,27 @@
+.footer-container {
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-item {
+  padding: 0.5rem;
+}
+
+.contact-container {
+  padding: 1rem;
+}
+
+/* Media query for phones */
+@media (max-width: 767px) {
+  .text-container {
+    flex-direction: column;
+  }
+
+  .footer-container {
+    padding: 1rem;
+  }
+}

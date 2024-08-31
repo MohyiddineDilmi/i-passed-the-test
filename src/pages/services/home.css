@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlayStyle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200%; /* Adjust the height of the overlay as needed */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 95%
+  );
+}
+
+.videoStyle {
+  height: 38rem; /* Adjust the height as needed */
+  width: 100%;
+  object-fit: cover; /* Ensure the video covers the container */
+}
+
+/* Define styles for phones using media query */
+@media (max-width: 767px) {
+  .videoStyle {
+    width: 100%;
+    height: 620px;
+    object-fit: none;
+  }
+
+  /* Adjust padding for smaller screens */
+  .header-content {
+  }
+}

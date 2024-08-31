@@ -1,0 +1,7 @@
+# public/robots.txt
+
+User-agent: *
+Disallow: /admin/
+Allow: /
+
+Sitemap: https://www.erelys.com/sitemap.xml
