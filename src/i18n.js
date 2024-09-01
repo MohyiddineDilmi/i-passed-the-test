@@ -7,6 +7,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 // Import translation files
 import en from './locales/en/translation.json';
 import fr from './locales/fr/translation.json';
+import ar from './locales/ar/translation.json';
+import es from './locales/es/translation.json';
 
 i18n
   .use(HttpBackend) // Load translations from server
@@ -18,6 +20,8 @@ i18n
     resources: {
       en: { translation: en },
       fr: { translation: fr },
+      ar: { translation: ar },
+      es: { translation: es },
     },
     interpolation: {
       escapeValue: false, // React already does escaping

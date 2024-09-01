@@ -53,34 +53,37 @@ function ContactUs() {
   return (
     <>
       <div className="email-conatiner" style={socialMediaStyle}>
-        <p className={styles.title}>fly@erelys.com</p>
+        <p className={styles.title}>info@ipassedthetest.com</p>
         <button onClick={handleButtonClick} style={buttonStyle}>
           <FontAwesomeIcon icon={logo} style={iconStyle} />
         </button>
-        <p className={styles.text_no_margin}>514 665-7867</p>
       </div>
 
       <div className="social-media-container" style={socialMediaStyle}>
         {/* <button style={buttonStyle} onClick={() => window.open('YOUR_DISCORD_LINK')}>
             <FontAwesomeIcon icon={faDiscord} style={iconStyle}/>
           </button> */}
-        <button
+
+        {/* <button
           style={buttonStyle}
           onClick={() =>
             window.open('https://www.instagram.com/airborne.canada/')
           }
         >
           <FontAwesomeIcon icon={faInstagram} style={iconStyle} />
-        </button>
+        </button> */}
+
         {/* <button style={buttonStyle} onClick={() => window.open('YOUR_DISCORD_LINK')}>
             <FontAwesomeIcon icon={faYoutube} style={iconStyle}/>
           </button> */}
-        <button
+
+        {/* <button
           style={buttonStyle}
           onClick={() => window.open('https://www.linkedin.com/company/flyerelys')}
         >
           <FontAwesomeIcon icon={faLinkedin} style={iconStyle} />
-        </button>
+        </button> */}
+
         {/* <button style={buttonStyle} onClick={() => window.open('YOUR_DISCORD_LINK')}>
             <FontAwesomeIcon icon={faTwitter} style={iconStyle}/>
           </button> */}

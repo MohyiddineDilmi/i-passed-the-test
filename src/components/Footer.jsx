@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logoPath from '../assets/erelys_logo.svg';
+import logoPath from '../assets/ipassedthetest.svg';
 import styles from '../modules/styles.module.css';
 import ContactUs from './ContactUs';
 import { useTranslation } from 'react-i18next';
@@ -49,7 +49,7 @@ export default function Footer() {
           <h2 className={styles.title_white}>{t('contact_us')}</h2>
           <ContactUs />
           <p className={styles.text_no_margin}>
-            © 2024 Erelys. All rights reserved.
+            © 2024 I Passed The Test. All rights reserved.
             <br />
             Privacy Policy - Terms and Conditions
           </p>

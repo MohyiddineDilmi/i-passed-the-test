@@ -68,8 +68,8 @@
 }
 
 .text_white :local {
-  font-size: 20px;
-  color: #ffffff2d;
+  font-size: 18px;
+  color: #ffffff;
   font-family: 'NCTTorin-Regular';
   margin: 0% 15% 0% 15%;
   text-align: center;
@@ -83,7 +83,7 @@
 
 .text_dark_mode :local {
   font-size: 14px;
-  color: #cacaca;
+  color: #808080;
   font-family: 'NCTTorin-Light';
   margin: 0% 15% 0% 15%;
   text-align: center;

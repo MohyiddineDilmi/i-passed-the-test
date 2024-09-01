@@ -49,7 +49,7 @@ function VisualArtsServices() {
         <SEO
           title="Erelys Drone Services"
           description="Discover Erelys Drone Services for Cinematography, Videography, Aerial Photography, Thermography, Photogrammetry, and Construction Inspections."
-          url="https://www.erelys.com/"
+          url="https://www.ipassedthetest.com/"
           image="https://raw.githubusercontent.com/MohyiddineDilmi/data/main/images/home_image.png"
         />
         <motion.div

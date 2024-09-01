@@ -65,7 +65,7 @@ function Services() {
       </div>
 
       {/* <VideoPlayer videoUrls={videoUrls} /> */}
-      <div className="services_list">
+      {/* <div className="services_list">
         <div className="srvice-card">
           <ImagePlayer
             title={t('thermal_and_infrared_imaging')}
@@ -82,7 +82,7 @@ function Services() {
             videoUrls={videoUrls_1}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

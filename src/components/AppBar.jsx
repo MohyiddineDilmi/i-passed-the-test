@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logoPath from '../assets/erelys_logo.svg';
+import logoPath from '../assets/ipassedthetest.svg';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const styles = {
@@ -66,7 +66,7 @@ function AppBar() {
       >
         <div>
           <Link to="/">
-            <img src={logoPath} alt="air-borne-logo" style={styles.logoImg} />
+            <img src={logoPath} alt="i-passed-the-test-logo" style={styles.logoImg} />
           </Link>
         </div>
         <div>

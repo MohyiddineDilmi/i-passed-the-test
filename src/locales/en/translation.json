@@ -1,54 +1,19 @@
 {
-  "header_title_one": "Taking your vision to new heights with creation",
-  "header_title_two": "Taking your vision to new heights with innovation",
-  "header_title_three": "Taking your vision to new heights with safety",
-  "header_title_four": "Taking your vision to new heights with excellence",
+  "header_title": "Prepare for your Canadian citizenship test",
+  "header_description": "The test will ask questions about the rights and responsibilities of Canadian citizens, Canada’s history, geography, economy, government, laws, and symbols. It has 20 questions that are either multiple choice or true or false. The test is available in English or French and is 45 minutes long. You need to get at least 15 out of 20 questions right to pass the test.",
+
+  "start_button": "Start",
 
   "our_services": "Our Services",
   "our_services_description": "We offers top-quality drone services, specializing in Aerial photography, Cinematography and Videography. Quality, safety, and customer satisfaction are our top priorities.",
-
-  "visual_arts": "Visual Arts",
-  "visual_arts_description": "Providing high-quality cinematography, videography, and aerial photography for events, real estate marketing, and creative projects.",
-
-  "inspection_and_surveying": "Inspection and Surveying",
-  "inspection_and_surveying_description": "Conducting comprehensive inspections and surveys for construction, infrastructure, agriculture, and environmental monitoring, with detailed reports and measurements.",
-
-  "thermal_and_infrared_imaging": "Thermal and Infrared Imaging",
-  "thermal_and_infrared_imaging_description": "Utilizing advanced thermography for heat detection, electrical inspections, fire support, and wildlife monitoring to ensure safety and efficiency.",
-
-  "mapping_and_measurement": "Mapping and Measurement",
-  "mapping_and_measurement_description": "Utilizing advanced thermography for heat detection, electrical inspections, fire support, and wildlife monitoring to ensure safety and efficiency.",
-
-  "our_technologies": "We Build the Right Drones for Your Project",
-  "our_technologies_description": "We build the right drone with advanced tech, capturing high-res footage, real-time streaming, FPV operations, and AI-driven data analysis.",
-
-  "high_resolution": "High-resolution",
-  "high_resolution_description": "We capture breathtaking aerial footage that showcases your business or project.",
-
-  "real_time_streaming": "Real-time streaming",
-  "real_time_streaming_description": "Join our flights and experience the live footage in real-time.",
-
-  "fpv": "FPV",
-  "fpv_description": "Enhance your projects with our FPV drone operations, offering precision and an immersive perspective.",
-
-  "ai_and_machine_learning": "AI and machine learning",
-  "ai_and_machine_learning_description": "Leverage the power of AI and machine learning for precise analysis of all drone data, delivering unmatched accuracy",
-
   "contact_us": "Contact Us",
 
-  "visit_us": "Come visit us in Old Montreal",
-
   "vision": "Vision",
-  "vision_description": "Erelys envisions transforming how people see the world through cutting-edge technology and innovative techniques. Our mission is to capture breathtaking aerial imagery that inspires and informs, helping clients achieve their goals—whether it's creating stunning marketing content, conducting detailed surveys and inspections, or delivering actionable data insights.",
+  "vision_description": "I Passed the Test aims to revolutionize exam preparation by providing clear, accessible resources to help you succeed with confidence.",
 
   "mission": "Mission",
-  "mission_description": "Erelys is dedicated to delivering safe, efficient, and top-quality drone services that surpass client expectations. We provide innovative, tailored solutions while maintaining the highest safety standards and regulatory compliance. Our commitment is to exceptional customer service and building lasting client relationships.",
+  "mission_description": "Our mission is to offer user-friendly tools and expert guidance that make studying efficient and effective, ensuring every user is well-prepared for their exams.",
 
   "values": "Values",
-  "values_description": "Erelys is committed to innovation, utilizing the latest technology and techniques to lead the drone services industry. Safety is our top priority, ensuring that all operations are conducted safely and in compliance with regulations. We provide high-quality services with a dedicated team that strives for excellence. Exceptional customer service is at the heart of our business, as we respond to client needs and work closely to achieve their goals. Integrity guides us; we operate with honesty, fairness, and transparency, building trust and credibility with our clients and partners.",
-
-  "cinematic": "Cinematic",
-  "cinematic_description": "Artfully composed scenes with dramatic lighting and high production values.",
-
-  "fpv_porfolio_description": "Immersive, first-person perspective footage showcasing dynamic and thrilling views."
+  "values_description": "We value clarity, accessibility, and excellence. Our goal is to empower users with high-quality content and support, ensuring a straightforward path to exam success."
 }

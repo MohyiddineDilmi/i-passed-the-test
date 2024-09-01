@@ -1,49 +1,19 @@
 {
-  "header_title_one": "Amener votre vision vers de nouveaux sommets avec la création",
-  "header_title_two": "Amener votre vision vers de nouveaux sommets avec l'innovation",
-  "header_title_three": "Amener votre vision vers de nouveaux sommets avec sécurité",
-  "header_title_four": "Amener votre vision vers de nouveaux sommets avec l'excellence",
+  "header_title": "Préparez-vous pour votre examen de citoyenneté canadienne",
+  "header_description": "Le test portera sur les droits et responsabilités des citoyens canadiens, l'histoire, la géographie, l'économie, le gouvernement, les lois et les symboles du Canada. Il comporte 20 questions à choix multiples ou vrai ou faux. Le test est disponible en anglais ou en français et dure 45 minutes. Vous devez obtenir au moins 15 bonnes réponses sur 20 pour réussir.",
+
+  "start_button": "Commencer",
 
   "our_services": "Nos Services",
-  "our_services_description": "Nous proposons des services de drones de qualité supérieure, spécialisés dans la photographie aérienne, la cinématographie et la vidéographie. La qualité, la sécurité et la satisfaction du client sont nos principales priorités.",
-
-  "visual_arts": "Arts Visuels",
-  "visual_arts_description": "Fournir une cinématographie, une vidéographie et une photographie aérienne de haute qualité pour les événements, le marketing immobilier et les projets créatifs.",
-
-  "inspection_and_surveying": "Inspection et Arpentage",
-  "inspection_and_surveying_description": "Réaliser des inspections et des relevés complets pour la construction, les infrastructures, l'agriculture et la surveillance environnementale, avec des rapports et des mesures détaillés.",
-
-  "thermal_and_infrared_imaging": "Imagerie Thermique et Infrarouge",
-  "thermal_and_infrared_imaging_description": "Utiliser la thermographie avancée pour la détection de chaleur, les inspections électriques, le soutien incendie et la surveillance de la faune pour garantir la sécurité et l'efficacité.",
-
-  "mapping_and_measurement": "Cartographie et Mesure",
-  "mapping_and_measurement_description": "Utiliser la thermographie avancée pour la détection de chaleur, les inspections électriques, le soutien incendie et la surveillance de la faune pour garantir la sécurité et l'efficacité.",
-
-  "our_technologies": "Nous Construisons les Drones Adapté à Votre Projet",
-  "our_technologies_description": "Nous construisons le drone adapté avec des technologies avancées, capturant des images haute résolution, streaming en temps réel, opérations FPV et analyse de données par IA.",
-
-  "high_resolution": "Haute Résolution",
-  "high_resolution_description": "Nous capturons des images aériennes époustouflantes qui mettent en valeur votre entreprise ou projet.",
-
-  "real_time_streaming": "Diffusion en Temps Réel",
-  "real_time_streaming_description": "Rejoignez nos vols et vivez l'expérience des images en direct.",
-
-  "fpv": "FPV",
-  "fpv_description": "Améliorez vos projets avec nos drones FPV, offrant précision et perspective immersive.",
-
-  "ai_and_machine_learning": "AI et Machine Learning",
-  "ai_and_machine_learning_description": "Utilisez l'AI et Machine Learning pour une analyse précise des données de drones, offrant des insights inégalés.",
-
+  "our_services_description": "Nous offrons des services de drones de haute qualité, spécialisés dans la photographie aérienne, la cinématographie et la vidéographie. La qualité, la sécurité et la satisfaction du client sont nos priorités absolues.",
   "contact_us": "Contactez-nous",
 
-  "visit_us": "Venez nous rendre visite dans le Vieux-Montréal",
-
   "vision": "Vision",
-  "vision_description": "Erelys envisage de transformer la façon dont les gens voient le monde grâce à une technologie de pointe et des techniques innovantes. Notre mission est de capturer des images aériennes époustouflantes qui inspirent et informent, aidant ainsi nos clients à atteindre leurs objectifs, que ce soit en créant du contenu marketing exceptionnel, en réalisant des enquêtes et des inspections détaillées ou en fournissant des informations exploitables.",
+  "vision_description": "I Passed the Test vise à révolutionner la préparation aux examens en fournissant des ressources claires et accessibles pour vous aider à réussir avec confiance.",
 
   "mission": "Mission",
-  "mission_description": "Erelys s'engage à fournir des services de drones sûrs, efficaces et de haute qualité qui dépassent les attentes des clients. Nous offrons des solutions innovantes et personnalisées tout en maintenant les normes de sécurité les plus élevées et la conformité réglementaire. Notre engagement est de fournir un service client exceptionnel et de bâtir des relations durables avec nos clients.",
+  "mission_description": "Notre mission est d'offrir des outils conviviaux et des conseils d'experts qui rendent l'étude efficace et efficiente, garantissant que chaque utilisateur est bien préparé pour ses examens.",
 
   "values": "Valeurs",
-  "values_description": "Erelys est engagé dans l'innovation, utilisant la technologie et les techniques les plus récentes pour diriger l'industrie des services de drones. La sécurité est notre priorité absolue, garantissant que toutes les opérations sont menées en toute sécurité et en conformité avec les réglementations. Nous fournissons des services de haute qualité avec une équipe dédiée qui s'efforce d'exceller. Un service client exceptionnel est au cœur de notre activité, nous répondons aux besoins des clients et travaillons en étroite collaboration pour atteindre leurs objectifs. L'intégrité nous guide, nous opérons avec honnêteté, équité et transparence, construisant la confiance et la crédibilité avec nos clients et partenaires."
+  "values_description": "Nous valorisons la clarté, l'accessibilité et l'excellence. Notre objectif est de permettre aux utilisateurs d'accéder à un contenu de haute qualité et à un support, assurant un chemin simple vers la réussite des examens."
 }

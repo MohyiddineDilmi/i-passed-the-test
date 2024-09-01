@@ -7,11 +7,39 @@ const LanguageSwitcher = () => {
   const [language, setLanguage] = useState('EN');
 
   useEffect(() => {
-    i18n.changeLanguage(language === 'EN' ? 'en' : 'fr');
+    switch (language) {
+      case 'EN':
+        i18n.changeLanguage('en');
+        break;
+      case 'FR':
+        i18n.changeLanguage('fr');
+        break;
+      case 'AR':
+        i18n.changeLanguage('ar');
+        break;
+      case 'ES':
+        i18n.changeLanguage('es');
+        break;
+      default:
+        i18n.changeLanguage('en');
+    }
   }, [language, i18n]);
 
   const toggleLanguage = () => {
-    setLanguage((prevLanguage) => (prevLanguage === 'EN' ? 'FR' : 'EN'));
+    setLanguage((prevLanguage) => {
+      switch (prevLanguage) {
+        case 'EN':
+          return 'FR';
+        case 'FR':
+          return 'AR';
+        case 'AR':
+          return 'ES';
+        case 'ES':
+          return 'EN';
+        default:
+          return 'EN';
+      }
+    });
   };
 
   useEffect(() => {
@@ -31,8 +59,10 @@ const LanguageSwitcher = () => {
   }, []);
 
   const languageIcons = {
-    EN: 'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/icons/canada_flag.svg',
-    FR: 'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/icons/quebec_flag.svg',
+    EN: 'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/icons/eng.png',
+    FR: 'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/icons/fra.png',
+    AR: 'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/icons/ara.png',
+    ES: 'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/icons/spa.png',
   };
 
   return (
