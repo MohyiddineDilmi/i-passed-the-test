@@ -24,7 +24,7 @@ function HomePage() {
         title="I Passed the Test - Your Ultimate Test Preparation Resource"
         description="Prepare effectively for your exams with I Passed the Test. Access comprehensive study materials, practice tests, and expert guidance to ensure your success."
         url="https://www.ipassedthetest.com/"
-        image="https://raw.githubusercontent.com/MohyiddineDilmi/data/main/images/home_image.png"
+        image="https://raw.githubusercontent.com/MohyiddineDilmi/data/main/ipassedthetest/seo_image.png"
       />
       <AppBar />
       <Header />
