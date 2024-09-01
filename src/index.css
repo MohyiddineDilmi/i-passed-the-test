@@ -126,9 +126,24 @@ h4 {
 
 .start {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap value as needed */
 }
+
+.start > * {
+  flex: 1 1 calc(20% - 20px); /* Subtract the gap from the width */
+  max-width: calc(20% - 20px);
+  box-sizing: border-box; /* Ensure padding/border is included in the width calculation */
+}
+
+@media (max-width: 600px) {
+  .start > * {
+    flex: 1 1 100%; /* For smaller screens, make items full width */
+    max-width: 100%;
+  }
+}
+
 
 .progress {
   margin-bottom: 4rem;

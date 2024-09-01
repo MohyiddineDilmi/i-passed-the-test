@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'; // Removed BrowserRouter here
 import AppBar from '../../components/AppBar';
 import Header from './Header';
 import './home.css';
-import Services from './Services';
 import Footer from '../../components/Footer';
 import SEO from '../../components/SEO';
 import CanadaTest from '../../canada/App';

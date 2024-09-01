@@ -4,7 +4,9 @@ import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
-  const [language, setLanguage] = useState('EN');
+  const [language, setLanguage] = useState(() => {
+    return localStorage.getItem('selectedLanguage') || 'EN';
+  });
 
   useEffect(() => {
     switch (language) {
@@ -23,22 +25,31 @@ const LanguageSwitcher = () => {
       default:
         i18n.changeLanguage('en');
     }
+
+    // Store the selected language in localStorage
+    localStorage.setItem('selectedLanguage', language);
   }, [language, i18n]);
 
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => {
+      let newLanguage;
       switch (prevLanguage) {
         case 'EN':
-          return 'FR';
+          newLanguage = 'FR';
+          break;
         case 'FR':
-          return 'AR';
+          newLanguage = 'AR';
+          break;
         case 'AR':
-          return 'ES';
+          newLanguage = 'ES';
+          break;
         case 'ES':
-          return 'EN';
+          newLanguage = 'EN';
+          break;
         default:
-          return 'EN';
+          newLanguage = 'EN';
       }
+      return newLanguage;
     });
   };
 

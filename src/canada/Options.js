@@ -1,4 +1,7 @@
+import { useTranslation } from 'react-i18next';
+
 function Options({ question, dispatch, answer }) {
+  const { i18n } = useTranslation();
   const hasAnswered = answer !== null;
 
   return (
@@ -16,7 +19,7 @@ function Options({ question, dispatch, answer }) {
           disabled={hasAnswered}
           onClick={() => dispatch({ type: 'newAnswer', payload: index })}
         >
-          {option}
+          {option[i18n.language]}
         </button>
       ))}
     </div>
@@ -24,3 +27,4 @@ function Options({ question, dispatch, answer }) {
 }
 
 export default Options;
+

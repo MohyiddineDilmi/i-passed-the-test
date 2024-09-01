@@ -3,7 +3,6 @@ import styles from '../../modules/styles.module.css';
 import { useTranslation } from 'react-i18next';
 import canSymbol from '../../assets/canada_symbol.svg';
 import mapLeaf from '../../assets/mapple_leaf.png';
-import { padding } from '@mui/system';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const headerStyles = {
