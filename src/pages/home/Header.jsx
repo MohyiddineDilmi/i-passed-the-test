@@ -2,10 +2,9 @@ import React, { useEffect, useState } from 'react';
 import styles from '../../modules/styles.module.css';
 import { useTranslation } from 'react-i18next';
 import canSymbol from '../../assets/canada_symbol.svg';
-import mapLeaf from '../../assets/mapple_leaf.png'
+import mapLeaf from '../../assets/mapple_leaf.png';
 import { padding } from '@mui/system';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-
 
 const headerStyles = {
   container: {
@@ -27,14 +26,14 @@ const headerStyles = {
   text: {
     maxWidth: '620px',
     margin: '0 auto',
-    padding: '1rem'
+    padding: '1rem',
   },
   mapLeaf: {
     maxWidth: '150px', // Sets the maximum width to 300px
     width: '100%', // Ensures the image scales down proportionally
     margin: '0 auto', // Centers the image horizontally
     display: 'block', // Centers the image in block context
-    padding: '1rem'
+    padding: '1rem',
   },
   startButton: {
     backgroundColor: '#304C70',
@@ -58,7 +57,6 @@ function Header() {
   const { t, i18n } = useTranslation();
   const [language, setLanguage] = useState(i18n.language);
   const navigate = useNavigate(); // Initialize useNavigate
-
 
   useEffect(() => {
     const handleLanguageChange = () => {
@@ -86,12 +84,11 @@ function Header() {
         <p className={`${styles.text_dark_mode}`} style={headerStyles.text}>
           {t('header_description')}
         </p>
-        <button 
-        style={headerStyles.startButton} 
-        className={`${styles.text_white} responsive-title`}
-        onClick={handleStartClick}>
-          {t('start_button')}
+        <div className="start">
+          <button className="btn btn-ui" onClick={handleStartClick}>
+            {t('start_button')}
           </button>
+        </div>
         <img src={mapLeaf} alt="Canadian Symbol" style={headerStyles.mapLeaf} />
       </div>
     </header>

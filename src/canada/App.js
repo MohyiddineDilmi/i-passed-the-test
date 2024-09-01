@@ -1,17 +1,17 @@
-import { useEffect, useReducer } from "react";
+import { useEffect, useReducer } from 'react';
 
-import Header from "./Header";
-import Main from "./Main";
-import Loader from "./Loader";
-import Error from "./Error";
-import StartScreen from "./StartScreen";
-import Question from "./Question";
-import NextButton from "./NextButton";
-import Progress from "./Progress";
-import FinishScreen from "./FinishScreen";
-import Footer from "./Footer";
-import Timer from "./Timer";
-import "../index.css";
+import Header from './Header';
+import Main from './Main';
+import Loader from './Loader';
+import Error from './Error';
+import StartScreen from './StartScreen';
+import Question from './Question';
+import NextButton from './NextButton';
+import Progress from './Progress';
+import FinishScreen from './FinishScreen';
+import Footer from './Footer';
+import Timer from './Timer';
+import '../index.css';
 
 const SECS_PER_QUESTION = 135;
 
@@ -19,7 +19,7 @@ const SECS_PER_QUESTION = 135;
 const initialState = {
   questions: [],
   // 'loading', 'error', 'ready', 'active', 'finished'
-  status: "loading",
+  status: 'loading',
   index: 0,
   answer: null,
   points: 0,
@@ -29,25 +29,25 @@ const initialState = {
 
 function reducer(state, action) {
   switch (action.type) {
-    case "dataReceived":
+    case 'dataReceived':
       return {
         ...state,
         questions: action.payload,
-        status: "ready",
+        status: 'ready',
       };
-    case "dataFailed":
+    case 'dataFailed':
       return {
         ...state,
-        status: "error",
+        status: 'error',
       };
-    case "start":
+    case 'start':
       return {
         ...state,
         questions: action.payload, // Use the shuffled questions here
-        status: "active",
+        status: 'active',
         secondsRemaining: action.payload.length * SECS_PER_QUESTION,
       };
-    case "newAnswer":
+    case 'newAnswer':
       const question = state.questions.at(state.index);
 
       return {
@@ -58,19 +58,19 @@ function reducer(state, action) {
             ? state.points + question.points
             : state.points,
       };
-    case "nextQuestion":
+    case 'nextQuestion':
       return { ...state, index: state.index + 1, answer: null };
-    case "finish":
+    case 'finish':
       return {
         ...state,
-        status: "finished",
+        status: 'finished',
         highscore:
           state.points > state.highscore ? state.points : state.highscore,
       };
-    case "restart":
-      return { ...initialState, questions: state.questions, status: "ready" };
+    case 'restart':
+      return { ...initialState, questions: state.questions, status: 'ready' };
 
-    case "tick":
+    case 'tick':
       return {
         ...state,
         secondsRemaining: state.secondsRemaining - 1,
@@ -80,11 +80,11 @@ function reducer(state, action) {
               ? state.points
               : state.highscore
             : state.highscore,
-        status: state.secondsRemaining === 0 ? "finished" : state.status,
+        status: state.secondsRemaining === 0 ? 'finished' : state.status,
       };
 
     default:
-      throw new Error("Action unkonwn");
+      throw new Error('Action unkonwn');
   }
 }
 
@@ -100,17 +100,19 @@ export default function App() {
     0
   );
   // https://vinayak9669.github.io/React_quiz_api/questions.json
-  
+
   useEffect(function () {
-    fetch("https://raw.githubusercontent.com/MohyiddineDilmi/data/main/ipassedthetest/batch_1_en.json")
+    fetch(
+      'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/ipassedthetest/batch_1_en.json'
+    )
       .then((res) => res.json())
       .then((data) =>
         dispatch({
-          type: "dataReceived",
-          payload: data["questions"],
+          type: 'dataReceived',
+          payload: data['questions'],
         })
       )
-      .catch((err) => dispatch({ type: "dataFailed" }));
+      .catch((err) => dispatch({ type: 'dataFailed' }));
   }, []);
 
   return (
@@ -119,12 +121,16 @@ export default function App() {
         <div className="headerWrapper">
           <Header />
           <Main>
-            {status === "loading" && <Loader />}
-            {status === "error" && <Error />}
-            {status === "ready" && (
-              <StartScreen numQuestions={numQuestions} questions={questions} dispatch={dispatch} />
-            )}{" "}
-            {status === "active" && (
+            {status === 'loading' && <Loader />}
+            {status === 'error' && <Error />}
+            {status === 'ready' && (
+              <StartScreen
+                numQuestions={numQuestions}
+                questions={questions}
+                dispatch={dispatch}
+              />
+            )}{' '}
+            {status === 'active' && (
               <>
                 <Progress
                   index={index}
@@ -152,7 +158,7 @@ export default function App() {
                 </Footer>
               </>
             )}
-            {status === "finished" && (
+            {status === 'finished' && (
               <FinishScreen
                 points={points}
                 maxPossiblePoints={maxPossiblePoints}

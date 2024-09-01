@@ -66,7 +66,11 @@ function AppBar() {
       >
         <div>
           <Link to="/">
-            <img src={logoPath} alt="i-passed-the-test-logo" style={styles.logoImg} />
+            <img
+              src={logoPath}
+              alt="i-passed-the-test-logo"
+              style={styles.logoImg}
+            />
           </Link>
         </div>
         <div>

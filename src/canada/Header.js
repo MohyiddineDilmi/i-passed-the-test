@@ -1,4 +1,4 @@
-import ReactLogo from "../assets/canada_symbol.svg"; // Import the image
+import ReactLogo from '../assets/canada_symbol.svg'; // Import the image
 function Header() {
   return (
     <header className="app-header">

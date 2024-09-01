@@ -4,8 +4,6 @@ import YoutubePlayer from '../../components/YoutubePlayer';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import styles from '../../modules/styles.module.css';
 
-
-
 const Portfolio = () => {
   const { t } = useTranslation();
   const carouselRef = useRef(null); // Ref for accessing the carousel container
@@ -91,8 +89,8 @@ const Portfolio = () => {
   return (
     <div style={portfolioContainerStyle} className="portfolio-container">
       <div style={portfolioSectionStyle} className="portfolio-section">
-      <h1 className={styles.title_secondary}>{t('cinematic')}</h1>
-      <p className={styles.text}>{t('cinematic_description')}</p>
+        <h1 className={styles.title_secondary}>{t('cinematic')}</h1>
+        <p className={styles.text}>{t('cinematic_description')}</p>
         <div
           style={videoCarouselStyle}
           ref={carouselRef}
@@ -118,8 +116,8 @@ const Portfolio = () => {
         </button>
       </div>
       <div style={portfolioSectionStyle} className="portfolio-section">
-         <h1 className={styles.title_secondary}>{t('fpv')}</h1>
-    <p className={styles.text}>{t('fpv_porfolio_description')}</p> 
+        <h1 className={styles.title_secondary}>{t('fpv')}</h1>
+        <p className={styles.text}>{t('fpv_porfolio_description')}</p>
       </div>
     </div>
   );

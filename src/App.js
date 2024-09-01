@@ -6,7 +6,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Home/>
+      <Home />
     </div>
   );
 }

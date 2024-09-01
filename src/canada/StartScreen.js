@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import ShuffleOptions from './ShuffleOptions';
 
 function StartScreen({ numQuestions, questions, dispatch }) {
@@ -6,21 +6,15 @@ function StartScreen({ numQuestions, questions, dispatch }) {
     const shuffledQuestions = questions.map((question) =>
       ShuffleOptions(question)
     );
-    dispatch({ type: "start", payload: shuffledQuestions });
+    dispatch({ type: 'start', payload: shuffledQuestions });
   };
 
   return (
     <div className="start">
-      <button
-        className="btn btn-ui"
-        onClick={handleStart}
-      >
+      <button className="btn btn-ui" onClick={handleStart}>
         Test 1
       </button>
-      <button
-        className="btn btn-ui"
-        onClick={handleStart}
-      >
+      <button className="btn btn-ui" onClick={handleStart}>
         Test 2
       </button>
     </div>
@@ -28,16 +22,6 @@ function StartScreen({ numQuestions, questions, dispatch }) {
 }
 
 export default StartScreen;
-
-
-
-
-
-
-
-
-
-
 
 // function StartScreen({ numQuestions, dispatch }) {
 //   return (

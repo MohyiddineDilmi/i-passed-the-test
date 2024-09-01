@@ -101,10 +101,21 @@ const GraphPaper = () => {
   }, []);
 
   const lines = [];
-  for (let i = 6; i < 100; i += 6) { // Adjusted loop to skip 0 and 100
+  for (let i = 6; i < 100; i += 6) {
+    // Adjusted loop to skip 0 and 100
     lines.push(
-      <HorizontalLine key={`h-${i}`} top={i} animate={isVisible} delay={i / 10} />,
-      <VerticalLine key={`v-${i}`} left={i} animate={isVisible} delay={i / 10} />
+      <HorizontalLine
+        key={`h-${i}`}
+        top={i}
+        animate={isVisible}
+        delay={i / 10}
+      />,
+      <VerticalLine
+        key={`v-${i}`}
+        left={i}
+        animate={isVisible}
+        delay={i / 10}
+      />
     );
   }
 
