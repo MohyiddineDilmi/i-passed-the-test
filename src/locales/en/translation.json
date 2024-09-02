@@ -4,6 +4,17 @@
 
   "start_button": "Start",
 
+  "start_title": "Canada citizenship test practice",
+
+  "test_button": "Test",
+
+  "question": "Question",
+
+  "restart_button": "Restart",
+  "next_button": "Next",
+  "finish_button": "Finish",
+  "score": "Score",
+
   "our_services": "Our Services",
   "our_services_description": "We offers top-quality drone services, specializing in Aerial photography, Cinematography and Videography. Quality, safety, and customer satisfaction are our top priorities.",
   "contact_us": "Contact Us",

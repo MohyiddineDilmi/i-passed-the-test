@@ -31,7 +31,7 @@ function ContactUs() {
   const [logo, setLogo] = useState(faClone);
 
   const handleButtonClick = () => {
-    const textToCopy = 'fly@erelys.com';
+    const textToCopy = 'info@ipassedthetest.com';
 
     navigator.clipboard
       .writeText(textToCopy)

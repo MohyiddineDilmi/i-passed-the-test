@@ -4,6 +4,17 @@
 
   "start_button": "Comenzar",
 
+  "start_title": "Práctica para el examen de ciudadanía canadiense",
+
+  "test_button": "Prueba",
+
+  "question": "Pregunta",
+
+  "restart_button": "Reiniciar",
+  "next_button": "Siguiente",
+  "finish_button": "Finalizar",
+  "score": "Puntuación",
+
   "our_services": "Nuestros Servicios",
   "our_services_description": "Ofrecemos servicios de drones de alta calidad, especializados en Fotografía Aérea, Cinematografía y Videografía. La calidad, seguridad y satisfacción del cliente son nuestras principales prioridades.",
   "contact_us": "Contáctanos",

@@ -50,8 +50,8 @@ export default function Footer() {
           <ContactUs />
           <p className={styles.text_no_margin}>
             © 2024 I Passed The Test. All rights reserved.
-            <br />
-            Privacy Policy - Terms and Conditions
+            {/* <br />
+            Privacy Policy - Terms and Conditions */}
           </p>
         </div>
       </div>

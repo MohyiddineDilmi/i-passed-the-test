@@ -99,21 +99,6 @@ export default function App() {
     (prev, cur) => prev + cur.points,
     0
   );
-  // https://vinayak9669.github.io/React_quiz_api/questions.json
-
-  // useEffect(function () {
-  //   fetch(
-  //     'https://raw.githubusercontent.com/MohyiddineDilmi/data/main/ipassedthetest/questions.json'
-  //   )
-  //     .then((res) => res.json())
-  //     .then((data) =>
-  //       dispatch({
-  //         type: 'dataReceived',
-  //         payload: data['questions'],
-  //       })
-  //     )
-  //     .catch((err) => dispatch({ type: 'dataFailed' }));
-  // }, []);
 
   useEffect(function () {
     fetch(

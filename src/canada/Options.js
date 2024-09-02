@@ -27,4 +27,3 @@ function Options({ question, dispatch, answer }) {
 }
 
 export default Options;
-

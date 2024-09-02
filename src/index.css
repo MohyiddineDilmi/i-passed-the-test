@@ -118,7 +118,7 @@ h3 {
 }
 
 h4 {
-  font-size: calc(100vmin - 96vmin);
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2.4rem;
   color: white;
@@ -132,18 +132,39 @@ h4 {
 }
 
 .start > * {
-  flex: 1 1 calc(20% - 20px); /* Subtract the gap from the width */
+  flex: 1 1 calc(20% - 20px); /* Ensure 5 items per row with spacing */
   max-width: calc(20% - 20px);
-  box-sizing: border-box; /* Ensure padding/border is included in the width calculation */
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .start > * {
+    flex: 1 1 calc(25% - 20px); /* 4 items per row */
+    max-width: calc(25% - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .start > * {
+    flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
+    max-width: calc(33.33% - 20px);
+  }
 }
 
 @media (max-width: 600px) {
   .start > * {
-    flex: 1 1 100%; /* For smaller screens, make items full width */
-    max-width: 100%;
+    flex: 1 1 calc(50% - 20px); /* 2 items per row */
+    max-width: calc(50% - 20px);
   }
 }
 
+@media (max-width: 400px) {
+  .start > * {
+    flex: 1 1 80%; /* 1 item per row */
+    max-width: 80%;
+  }
+}
 
 .progress {
   margin-bottom: 4rem;

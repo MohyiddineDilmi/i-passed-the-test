@@ -1,5 +1,6 @@
 import React from 'react';
 import ShuffleOptions from './ShuffleOptions';
+import { useTranslation } from 'react-i18next';
 
 function StartScreen({ numQuestions, questions, dispatch }) {
   const handleStart = (startIndex, endIndex) => {
@@ -14,6 +15,8 @@ function StartScreen({ numQuestions, questions, dispatch }) {
   const batchSize = 20;
   const numBatches = Math.ceil(numQuestions / batchSize);
 
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="start">
       {Array.from({ length: numBatches }).map((_, i) => (
@@ -22,7 +25,7 @@ function StartScreen({ numQuestions, questions, dispatch }) {
           className="btn btn-ui"
           onClick={() => handleStart(i * batchSize, (i + 1) * batchSize)}
         >
-          Test {i + 1}
+          {t('test_button')} {i + 1}
         </button>
       ))}
     </div>
@@ -30,28 +33,3 @@ function StartScreen({ numQuestions, questions, dispatch }) {
 }
 
 export default StartScreen;
-
-// import React from 'react';
-// import ShuffleOptions from './ShuffleOptions';
-
-// function StartScreen({ numQuestions, questions, dispatch }) {
-//   const handleStart = () => {
-//     const shuffledQuestions = questions.map((question) =>
-//       ShuffleOptions(question)
-//     );
-//     dispatch({ type: 'start', payload: shuffledQuestions });
-//   };
-
-//   return (
-//     <div className="start">
-//       <button className="btn btn-ui" onClick={handleStart}>
-//         Test 1
-//       </button>
-//       <button className="btn btn-ui" onClick={handleStart}>
-//         Test 2
-//       </button>
-//     </div>
-//   );
-// }
-
-// export default StartScreen;

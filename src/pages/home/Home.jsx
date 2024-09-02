@@ -1,22 +1,11 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom'; // Removed BrowserRouter here
 import AppBar from '../../components/AppBar';
 import Header from './Header';
 import './home.css';
 import Footer from '../../components/Footer';
 import SEO from '../../components/SEO';
-import CanadaTest from '../../canada/App';
 
 function Home() {
-  return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/canada-test" element={<CanadaTestPage />} />
-    </Routes>
-  );
-}
-
-function HomePage() {
   return (
     <div style={{ backgroundColor: 'black' }}>
       <SEO
@@ -27,19 +16,6 @@ function HomePage() {
       />
       <AppBar />
       <Header />
-      {/* <Services /> */}
-      {/* <CanadaTest /> */}
-
-      <Footer />
-    </div>
-  );
-}
-
-function CanadaTestPage() {
-  return (
-    <div style={{ backgroundColor: 'black' }}>
-      <AppBar />
-      <CanadaTest />
       <Footer />
     </div>
   );

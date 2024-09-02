@@ -4,6 +4,17 @@
 
   "start_button": "Commencer",
 
+  "start_title": "Exercice pour le test de citoyenneté canadienne",
+
+  "test_button": "Test",
+
+  "question": "Question",
+
+  "restart_button": "Redémarrer",
+  "next_button": "Suivant",
+  "finish_button": "Terminer",
+  "score": "Score",
+
   "our_services": "Nos Services",
   "our_services_description": "Nous offrons des services de drones de haute qualité, spécialisés dans la photographie aérienne, la cinématographie et la vidéographie. La qualité, la sécurité et la satisfaction du client sont nos priorités absolues.",
   "contact_us": "Contactez-nous",

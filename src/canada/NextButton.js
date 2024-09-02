@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 function NextButton({ dispatch, answer, index, numQuestions }) {
+  const { t, i18n } = useTranslation();
+
   if (answer === null) return null;
 
   if (index < numQuestions - 1)
@@ -7,7 +11,7 @@ function NextButton({ dispatch, answer, index, numQuestions }) {
         className="btn btn-ui"
         onClick={() => dispatch({ type: 'nextQuestion' })}
       >
-        Next
+        {t('next_button')}
       </button>
     );
 
@@ -17,7 +21,7 @@ function NextButton({ dispatch, answer, index, numQuestions }) {
         className="btn btn-ui"
         onClick={() => dispatch({ type: 'finish' })}
       >
-        Finish
+        {t('finish_button')}
       </button>
     );
 }
