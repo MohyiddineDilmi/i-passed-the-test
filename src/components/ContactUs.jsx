@@ -52,12 +52,12 @@ function ContactUs() {
 
   return (
     <>
-      <div className="email-conatiner" style={socialMediaStyle}>
+      {/* <div className="email-conatiner" style={socialMediaStyle}>
         <p className={styles.title}>info@ipassedthetest.com</p>
         <button onClick={handleButtonClick} style={buttonStyle}>
           <FontAwesomeIcon icon={logo} style={iconStyle} />
         </button>
-      </div>
+      </div> */}
 
       <div className="social-media-container" style={socialMediaStyle}>
         {/* <button style={buttonStyle} onClick={() => window.open('YOUR_DISCORD_LINK')}>

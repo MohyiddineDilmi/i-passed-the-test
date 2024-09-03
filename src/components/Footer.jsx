@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
 
         <div className="contact-container">
-          <h2 className={styles.title_white}>{t('contact_us')}</h2>
+          {/* <h2 className={styles.title_white}>{t('contact_us')}</h2> */}
           <ContactUs />
           <p className={styles.text_no_margin}>
             © 2024 I Passed The Test. All rights reserved.

@@ -75,7 +75,7 @@ code {
   top: -30%;
 }
 .main {
-  width: calc(80vmin);
+  width: calc(95vmin);
   margin: 0 auto;
 }
 
@@ -99,7 +99,7 @@ code {
 }
 
 h1 {
-  font-family: 'Segoe UI';
+  font-family: 'NCTTorin-Regular';
   font-size: calc(98vmin - 93vmin);
   text-align: center;
   color: white;
@@ -131,40 +131,6 @@ h4 {
   gap: 20px; /* Adjust the gap value as needed */
 }
 
-.start > * {
-  flex: 1 1 calc(20% - 20px); /* Ensure 5 items per row with spacing */
-  max-width: calc(20% - 20px);
-  box-sizing: border-box;
-}
-
-/* Responsive adjustments */
-@media (max-width: 1200px) {
-  .start > * {
-    flex: 1 1 calc(25% - 20px); /* 4 items per row */
-    max-width: calc(25% - 20px);
-  }
-}
-
-@media (max-width: 900px) {
-  .start > * {
-    flex: 1 1 calc(33.33% - 20px); /* 3 items per row */
-    max-width: calc(33.33% - 20px);
-  }
-}
-
-@media (max-width: 600px) {
-  .start > * {
-    flex: 1 1 calc(50% - 20px); /* 2 items per row */
-    max-width: calc(50% - 20px);
-  }
-}
-
-@media (max-width: 400px) {
-  .start > * {
-    flex: 1 1 80%; /* 1 item per row */
-    max-width: 80%;
-  }
-}
 
 .progress {
   margin-bottom: 4rem;
