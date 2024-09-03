@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.423db2a5.css",
+    "main.js": "/static/js/main.37ca43ef.js",
+    "static/js/453.5536cad8.chunk.js": "/static/js/453.5536cad8.chunk.js",
+    "static/media/canada_symbol.svg": "/static/media/canada_symbol.b9b5f37fd4791e3f6cc8d4c091b6e77f.svg",
+    "static/media/NCTTorin-Light.ttf": "/static/media/NCTTorin-Light.fbe7233577ed9c292b21.ttf",
+    "static/media/NCTTorin-Regular.ttf": "/static/media/NCTTorin-Regular.b5d158eefa20dabfeba7.ttf",
+    "static/media/NCTTorin-Bold.ttf": "/static/media/NCTTorin-Bold.c3d1825820b7a94a8b76.ttf",
+    "static/media/NCTTorin-ExtraBold.ttf": "/static/media/NCTTorin-ExtraBold.ab1733201c46ef8062ad.ttf",
+    "static/media/mapple_leaf.png": "/static/media/mapple_leaf.67d7d726214d551d7e04.png",
+    "static/media/ipassedthetest.svg": "/static/media/ipassedthetest.bffd65de8c086ef3107f178c28a43674.svg",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.423db2a5.css.map": "/static/css/main.423db2a5.css.map",
+    "main.37ca43ef.js.map": "/static/js/main.37ca43ef.js.map",
+    "453.5536cad8.chunk.js.map": "/static/js/453.5536cad8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.423db2a5.css",
+    "static/js/main.37ca43ef.js"
+  ]
+}
